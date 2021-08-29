@@ -1,16 +1,17 @@
 @import "./variables";
+@import "./mix";
 
 .navbar-brand {
     a{
-     font-family: 'Style Script', cursive;
+     font-family: $fontfamilytitle;
      font-size: 2.5rem;
-     text-decoration: none;
+     @include reset-link;
     }
  }
  
  .nav-item {
      a{
-         font-family: 'Shadows Into Light', cursive;
+         font-family: $fontfamilypara;
           font-size:$fontSizeSmall;
           &:hover{
               color:rgb(0, 0, 0);

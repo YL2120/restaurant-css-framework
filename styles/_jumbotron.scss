@@ -1,0 +1,22 @@
+@import "./variables";
+@import "./mix";
+
+.jumbotron{
+    
+    
+    h1{
+        font-family: $fontfamilytitle ;
+        @include border;
+    }
+
+    p{
+        @include border;
+    }
+
+    button{
+        a{
+            @include reset-link();
+            @include border;
+        }
+    }
+}

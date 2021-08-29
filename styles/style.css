@@ -14,6 +14,22 @@
   color: black;
 }
 
+.jumbotron h1 {
+  font-family: "Style Script", cursive;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.jumbotron p {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.jumbotron button a {
+  text-decoration: none;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.card-title {
+  font-family: "Style Script", cursive;
+}
+
 * {
   font-size: 16px;
 }
